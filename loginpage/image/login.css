@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+.main{
+    width:100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+}
+.navbar{
+    width:1200px;
+    height: 80px;
+    margin: auto;
+}
+.icon{
+    width:200px;
+    float: left;
+    height: 70px;
+}
+.logo h2{
+    color: blue;
+    font-size: 35px;
+    padding-left: 25px;
+    padding-top: 10px;
+    float: left;
+
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 65px;
+    margin-top: 25px;
+    font-size: 25px;
+}
+ul li a{
+    padding-left: 70px;
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    transition: 0.4s ease-in;
+}
+ul li a:hover{
+    color: blue;
+
+}
+.search{
+    width: 350px;
+    float:left;
+    margin-left: 270px;
+    padding-left: 80px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 35px;
+    border: 2px solid rgb(223, 98, 2);
+    margin-top: 14px;
+    color: rgb(255, 42, 0);
+    border-right: none;
+    float: left;
+    padding: 10px;
+   border-bottom-left-radius: 5px;
+   border-top-left-radius: 5px;
+   padding-left: 50px;
+   background: transparent;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    background: rgb(185, 147, 222);
+    border: 2px solid rgb(27, 112, 162);
+    margin-top: 13px;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+
+}
+.search .btn:hover{
+    background: rgb(182, 237, 127);
+}
+.content{
+    width:1200px;
+    height:auto;
+    margin: auto;
+    color: rgb(235, 235, 245);
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    font-family: Arial;
+ font-size: 19px;
+ color: rgb(37, 2, 214);
+
+}
+.content h1{
+    color: rgb(144, 43, 6);
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width:160px;
+    height: 40px;
+    background: rgb(221, 119, 46);
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: crimson;
+}
+.content h1:hover{
+    color: rgb(145, 4, 4);
+}
+.cn:hover{
+    background: rgb(128, 178, 209);
+}
+.content span{
+    color: chocolate;
+    font-size: 60px;
+}
+.form{
+    display: inline-block;
+    width: 250px;
+    height: 380px;
+    background: rgb(212, 122, 185);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding-top: 50px;
+    padding: 25px;
+}
+.form{
+    width: 260px;
+    height: 400px;
+    position: absolute;
+    text-align: center;
+    color: crimson;
+    border-radius: 10px;
+    top: -20px;
+    left: 870px;
+    padding: 25px;
+}
+.form h2{
+    width: 220px;
+    text-align: center;
+    color: brown;
+    font-size: 24px;
+    background-color: azure;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+.form input{
+    width: 250px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px seagreen;
+    border-top: none;
+    border-left: none;
+    border-right:none ;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: aliceblue;
+    font-family: Arial;
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: rgb(243, 189, 88);
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: aliceblue;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: white;
+    color: blueviolet;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
+.form .link{
+    font-size: 18px;
+    padding-top: 25px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(250, 15, 15);
+    font-size: 19px;
+}
+.form .link a{
+    text-decoration: none;
+    font-size: 18px;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: larger;
+    color: rgb(252, 4, 4);
+    font-weight: bolder;
+}
